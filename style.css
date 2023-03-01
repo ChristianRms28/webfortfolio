@@ -1,0 +1,37 @@
+/*
+Syntax for CSS:
+    selector {
+        property: value;
+    }
+*/
+/*universal selector*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#profile{
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+}
+
+body{
+    background-color: #B02DFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23B02DFF' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%239d2ce2' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%238a2bc7' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%237828ab' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23662591' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#landing{
+    /*vh for viewport height*/
+    height: 80vh;
+        display: flex;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
